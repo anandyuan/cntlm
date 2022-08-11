@@ -1,3 +1,3 @@
 # cntlm
-cntlm download
+cntlm test
 ok
