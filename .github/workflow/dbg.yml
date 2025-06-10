@@ -1,0 +1,10 @@
+name: Debug with tmate
+on: [push] # 触发条件，可根据需要调整为 push、pull_request 等
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
